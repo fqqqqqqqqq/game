@@ -1,0 +1,82 @@
+html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>物流公司 - 简单展示</title>
+    <!-- 添加一些样式，可以用 CSS 来美化网站 -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- 网站头部 -->
+    <header>
+        <h1>物流公司 - 简单展示</h1>
+        <!-- 导航栏可以使用无序列表来实现 -->
+        <nav>
+            <ul>
+                <li><a href="#services">服务</a></a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 服务介绍 -->
+    <section id="services">
+        <h2>我们的服务</h2>
+        <p>我们提供全面的物流解决方案，包括但不限于：</p>
+        <ul>
+            <li>国内运输：覆盖全国各大城市。</li>
+            <li>国际货运：通过各种渠道安全、快速地运送货物至世界各地。
+</li>
+            <li>仓储管理：为您提供高效的仓库管理和库存控制服务。</li>
+            <li>定制化解决方案：针对不同客户需求，提供量身定做的物流计划。
+</li>
+        </ul>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about">
+        <h2>关于我们</h2>
+        <p>我们的物流公司致力于打造高效、可靠的物流网络。凭借多年行业经验和
+技术实力，我们不断优化服务流程，确保客户享受到便捷、安全的物流体验。</p>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact">
+        <h2>联系我们</h2>
+        <p>有任何疑问或合作需求？请随时通过以下方式联系我们：</p>
+        <ul>
+            <li><strong>电话：</strong>123-4567-8901</li>
+            <li><strong>Email：</strong>https://developers.weixin.qq.com</li>
+            <li><strong>地址：</strong>上海市浦东新区物流大道123号</li>
+        </ul>
+    </section>
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+    <!-- 尾部（可选，但不必要） -->
+    <footer>
+        &copy; 2023 版权所有。保留所有权利。
+    </footer>
+</div>
+
+</body>
+</html>
